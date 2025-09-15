@@ -86,9 +86,4 @@ Creating a pipeline like this has multiple advantages compared to working with i
 
 ## Task
 
-You are given a file `data.txt`.
-This file contains codes, one per line.
-However, many codes appear multiple times.
-We want you to count how many unique codes there are.
-
-Hint: look up `sort`, `uniq` and `wc`.
+Use `cat`, `head` and `tail` to find out what's on the 500th line of `data.txt`.
