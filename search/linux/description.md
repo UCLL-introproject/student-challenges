@@ -1,0 +1,1 @@
+Who is the creator and lead developer of the Linux Kernel?

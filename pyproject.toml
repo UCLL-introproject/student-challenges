@@ -1,0 +1,9 @@
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    ".",
+]
+python_files = "verify.py"
+python_functions = "verify"
+addopts = "--import-mode=importlib"

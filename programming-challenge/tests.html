@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head data-version="4.1.0">
+        <meta charset="UTF-8">
+        <title>Programming Challenge</title>
+        <style>
+            #failed-to-load {
+                width: 75%;
+                margin: 1em auto;
+                background: #FCC;
+                box-shadow: #FAA 5px 5px;
+                padding: 1em;
+                font-size: 150%;
+            }
+            #failed-to-load table {
+                width: 50%;
+                margin: 1em auto;
+                border-collapse: collapse;
+            }
+            #failed-to-load th {
+                text-align: center;
+            }
+            #failed-to-load td {
+                text-align: center;
+            }
+            #failed-to-load tr td:first-child {
+                font-weight: bold;
+            }
+            #failed-to-load tr:first-child th {
+                border-bottom: 2px solid black;
+            }
+            #failed-to-load td {
+                padding: 5px 0px;
+            }
+            #failed-to-load kbd {
+                background: #DDD;
+                padding: 5px 10px;
+                box-shadow: inset 2px 2px 2px rgba(255, 255, 255, .4), inset -2px -2px 2px rgba(0, 0, 0, .4);
+            }
+            #failed-to-load li {
+                margin: 5px 0px;
+            }
+        </style>
+     </head>
+     <body>
+        <div id="app">
+            <div id="failed-to-load">
+                <p>
+                    If this message is visible, it means that an error occurred while reading your student.js file.
+                </p>
+                <ul>
+                    <li>
+                        Open de <a href="https://webmasters.stackexchange.com/questions/8525/how-do-i-open-the-javascript-console-in-different-browsers">browserconsole</a>.
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th></th><th>Windows</th><th>MacOS</th>
+                                </tr>
+                                <tr>
+                                    <td>Chrome</td>
+                                    <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd></td>
+                                    <td><kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>J</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td>Firefox</td>
+                                    <td><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd></td>
+                                    <td><kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>K</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://support.apple.com/en-gb/guide/safari/sfri20948/mac">Safari</a></td>
+                                    <td></td>
+                                    <td><kbd>Cmd</kbd> + <kbd>Opt</kbd> + <kbd>C</kbd></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li>
+                        The error message should give a hint to what went wrong. Also note the line number on which the error occurs.
+                    </li>
+                </ul>
+                <p>
+                    If there is no error message or the browser does not seem to respond, it means that you have probably implemented an infinite loop.
+                </p>
+                <ul>
+                    <li>
+                        Remove your most recently written code from the student.js file. The easiest is by <a href="https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript">commenting</a> it out.
+                    </li>
+                    <li>
+                        Refresh the page. If this fails, close the tab and reopen it (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd> of <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>).
+                    </li>
+                    <li>
+                        The statements should have reappeared. If not, comment out more code from student.js until everything works again.
+                    </li>
+                    <li>
+                        Review your code and try to figure out why your loop doesn't stop.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script src="student.js"></script>
+        <script src="bundle.js"></script>
+     </body>
+  </html>
