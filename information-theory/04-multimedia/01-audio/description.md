@@ -1,4 +1,4 @@
-# Audio Compression TODO
+# Audio Compression
 
 Music can be digitized: when you listen to music on your computer, it is encoded using bits.
 We now wonder how many bits are needed for this.
