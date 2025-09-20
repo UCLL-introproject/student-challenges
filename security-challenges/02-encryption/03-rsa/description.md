@@ -108,5 +108,6 @@ In the world of cybersecurity, it is important to be aware of possible attacks, 
 
 ## Question
 
-RSA is still very much in use today, but for newer systems, a different, more efficient approach is preferred.
+RSA is still very much in use today, but it is being phased out as it has many weaknesses.
+These days, a different, more efficient and robust approach is preferred.
 What is this alternative called?

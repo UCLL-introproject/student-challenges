@@ -82,12 +82,12 @@ This often takes only a fraction of the time needed to create a GUI.
 
 Find out how to open a terminal on your OS.
 There are many different terminals available and they differ in which commands are available to them, so it is important you get the right one.
-These challenges require you to use of Bash, or a compatible terminal.
+These challenges require you to use Bash, or a compatible terminal.
 
 Windows users should therefore stay away from `cmd.exe` and PowerShell, and rely instead on Git Bash, which comes with Git.
 Linux and MacOS users should be able to use their default terminal.
 
 To familiarize yourself with the shell, we suggest you take a look at this [webpage](https://linuxjourney.com/lesson/the-shell).
-Another useful website is [explainshell.com](https://explainshell.com/).
+Another useful website is [explainshell.com](https://explainshell.com/): given a command, it can tell you what it does.
 
 As you go through the challenges, we strongly suggest you actually run the commands on your machine (as long as you feel it's safe to do so; maybe you want to be ultra careful when it involves deleting files).
