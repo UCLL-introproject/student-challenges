@@ -1,6 +1,7 @@
 
 import pathlib
 import urllib.request
+import urllib.parse
 from functools import cache
 import json
 
@@ -18,11 +19,6 @@ def find_root():
         current_path = current_path.parent
     return current_path
 
-@cache
-def determine_relative_path():
-    root = find_root()
-    return "/".join(find_test_path().relative_to(root).parts)
-
 def load_solution():
     path = find_test_path() / "solution.txt"
     assert path.exists(), f"file {path} not found"
@@ -30,7 +26,8 @@ def load_solution():
         return f.read()
 
 def derive_url():
-    path = determine_relative_path()
+    root = find_root()
+    path = "/".join(urllib.parse.quote(part) for part in find_test_path().relative_to(root).parts)
     return f"{url}/{path}"
 
 def create_request_payload():
