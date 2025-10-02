@@ -2,9 +2,6 @@
 
 Accepts
 
-* `"a"`
-* `"ap"`
-* `"ab ac"`
 * `"az"`
 * `"a,z"`
 * `"axxxz"`
